@@ -1,2 +1,2 @@
-# react-perf-talk
-Slides from my talk about performance in React
+# [Slides here](https://krambertech.github.io/react-perf-talk/)
+
