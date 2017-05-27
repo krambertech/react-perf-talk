@@ -426,6 +426,47 @@ div.helpPlacardRightItem {
     width:400px;
 }
 
+div.helpPlacardFooter {
+    font-size: 14px;
+    color: rgba(120,120,120,1);
+    font-family: Helvetica, Arial, sans-serif;
+    width: 822px;
+    height: 54px;
+}
+
+div.helpPlacardAcknowledgementsButton {
+    cursor: default;
+    right: 26px;
+    bottom: 22px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 11px;
+    padding-right: 11px;
+    position:absolute;
+    background:url('kn-cloud_pd_help_btn-N@2x.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+div.helpPlacardAcknowledgementsButton:hover {
+    background:url('kn-cloud_pd_help_btn-H@2x.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+div.helpPlacardAcknowledgementsButton:active {
+    background:url('kn-cloud_pd_help_btn-P@2x.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+
 /* iPad assets */
 
 @media all and (min-device-width: 481px) and (max-device-width: 1024px) {
